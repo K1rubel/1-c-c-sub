@@ -1,5 +1,5 @@
-! (register-module! ../1ccSub)
-! (import! &self 1ccSub:expression-helpers)
+! (register-module! ./helper)
+! (import! &self helper:expression-helpers)
 
 ;; the main constraint complement subtraction function
 ;; two parameteres - the point of application and the whole expression
